@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Header from "../components/molecules/Header";
-import Input from "../components/atoms/Input";
+import GameContainer from "../components/organisms/GameContainer";
 
 const StyledWrapper = styled.div`
   width: 100vw;
@@ -13,7 +13,7 @@ const MainView = () => {
   return (
     <StyledWrapper>
       <Header />
-      <Input maxLength="1" type="text" />
+      <GameContainer />
     </StyledWrapper>
   );
 };

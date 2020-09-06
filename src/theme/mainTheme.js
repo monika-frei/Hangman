@@ -3,7 +3,7 @@ export const theme = {
   grey100: "hsl(0, 0%, 96%)",
   grey200: "hsl(0, 0%, 90%)",
   grey300: "hsl(0, 0%, 60%)",
-  black: "hsl(0, 0%, 0%)",
+  black: "#080707",
   light: 300,
   bold: 500,
   fontFamilySecondary: '"Walter Turncoat", cursive',
