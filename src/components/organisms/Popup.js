@@ -18,26 +18,26 @@ const StyledWrapper = styled.div`
   margin: 0 auto;
   padding: 60px 100px;
   border-radius: 10px;
-  box-shadow: 0 0 5px ${({ theme }) => theme.grey200};
+  box-shadow: 0 0 5px hsl(0, 0%, 90%);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: ${({ theme }) => theme.black};
+  background-color: #080707;
 `;
 const StyledParagraph = styled(Paragraph)`
-  font-size: ${({ theme }) => theme.fontSize.l};
-  font-family: ${({ theme }) => theme.fontFamilySecondary};
+  font-size: 2.4rem;
+  font-family: "Walter Turncoat", cursive;
 `;
 
 const StyledButton = styled.button`
   margin-top: 20px;
   padding: 20px;
-  background-color: ${({ theme }) => theme.grey200};
+  background-color: hsl(0, 0%, 90%);
   border: none;
   border-radius: 5px;
-  color: ${({ theme }) => theme.black};
-  font-weight: ${({ theme }) => theme.bold};
+  color: #080707;
+  font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
 `;

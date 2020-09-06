@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Heading = styled.h1`
-  color: ${({ theme }) => theme.grey200};
-  font-size: ${({ theme }) => theme.fontSize.xl};
-  font-weight: ${({ theme }) => theme.bold};
+  color: hsl(0, 0%, 60%);
+  font-size: 4rem;
+  font-weight: 500;
 `;
 
 export default Heading;

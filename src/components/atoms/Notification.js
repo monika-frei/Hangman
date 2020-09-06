@@ -10,7 +10,7 @@ const StyledWrapper = styled.div`
   transform: translateX(-50%);
   border-radius: 10px 10px 0 0;
   margin: 0 auto;
-  background-color: ${({ theme }) => theme.grey300};
+  background-color: hsl(0, 0%, 60%);
   transition: transform 0.4s ease-in-out;
 
   ${(props) =>
@@ -21,9 +21,9 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledParagraph = styled(Paragraph)`
-  font-size: ${({ theme }) => theme.fontSize.s};
+  font-size: 1.6rem;
   text-align: center;
-  color: ${({ theme }) => theme.black};
+  color: #080707;
 `;
 
 const Notification = ({ show }) => {

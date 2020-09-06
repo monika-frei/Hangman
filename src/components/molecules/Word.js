@@ -13,10 +13,10 @@ const StyledSpan = styled.span`
   align-self: center;
   text-align: center;
   margin: 0 10px;
-  border-bottom: 1px solid ${({ theme }) => theme.white};
-  color: ${({ theme }) => theme.white};
-  font-size: ${({ theme }) => theme.fontSize.l};
-  font-family: ${({ theme }) => theme.fontFamilySecondary};
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Walter Turncoat", cursive;
 `;
 
 const Word = ({ word, correctLetters }) => {

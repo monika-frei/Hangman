@@ -6,7 +6,7 @@ const StyledWrapper = styled.div`
   position: absolute;
   right: 200px;
   margin-left: 200px;
-  border: 1px solid ${({ theme }) => theme.grey300};
+  border: 1px solid hsl(0, 0%, 60%);
   padding: 10px;
   max-width: 300px;
   display: flex;
@@ -18,10 +18,10 @@ const StyledSpan = styled.span`
   height: 40px;
   text-align: center;
   margin: 0 10px;
-  border-bottom: 1px solid ${({ theme }) => theme.white};
-  color: ${({ theme }) => theme.white};
-  font-size: ${({ theme }) => theme.fontSize.l};
-  font-family: ${({ theme }) => theme.fontFamilySecondary};
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Walter Turncoat", cursive;
 `;
 
 const WrongLetters = ({ wrongLetters }) => {
