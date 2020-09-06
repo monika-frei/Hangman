@@ -1,12 +1,17 @@
 import React from "react";
-import MainTemplate from "./components/MainTemplate";
+import GlobalStyle from "./theme/GlobalStyle";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./theme/mainTheme";
 import MainView from "./components/MainView";
 
 function App() {
   return (
-    <MainTemplate>
-      <MainView />
-    </MainTemplate>
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <MainView />
+      </ThemeProvider>
+    </>
   );
 }
 
