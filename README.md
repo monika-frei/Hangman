@@ -1,14 +1,14 @@
-#Hangman
+# Hangman
 Simple game made just to practice React Hooks and styled components.
 
-##Demo
+## Demo
 
  https://monika-frei.github.io/Hangman/build
  
-##Technologies
+## Technologies
 
-React(Hooks)
-Styled Components
+* React(Hooks)
+* Styled Components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
