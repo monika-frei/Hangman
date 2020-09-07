@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Hangman/build/static/js/main.194f6be9.chunk.js",
-    "main.js.map": "/Hangman/build/static/js/main.194f6be9.chunk.js.map",
+    "main.js": "/Hangman/build/static/js/main.94e29a03.chunk.js",
+    "main.js.map": "/Hangman/build/static/js/main.94e29a03.chunk.js.map",
     "runtime-main.js": "/Hangman/build/static/js/runtime-main.e9a05803.js",
     "runtime-main.js.map": "/Hangman/build/static/js/runtime-main.e9a05803.js.map",
-    "static/js/2.4287dc53.chunk.js": "/Hangman/build/static/js/2.4287dc53.chunk.js",
-    "static/js/2.4287dc53.chunk.js.map": "/Hangman/build/static/js/2.4287dc53.chunk.js.map",
+    "static/js/2.175cd15a.chunk.js": "/Hangman/build/static/js/2.175cd15a.chunk.js",
+    "static/js/2.175cd15a.chunk.js.map": "/Hangman/build/static/js/2.175cd15a.chunk.js.map",
     "index.html": "/Hangman/build/index.html",
-    "precache-manifest.7ebd3bc1fb81e49c893593168871076e.js": "/Hangman/build/precache-manifest.7ebd3bc1fb81e49c893593168871076e.js",
+    "precache-manifest.a79209db9cf35feb40f2c8f345dcdfa2.js": "/Hangman/build/precache-manifest.a79209db9cf35feb40f2c8f345dcdfa2.js",
     "service-worker.js": "/Hangman/build/service-worker.js",
-    "static/js/2.4287dc53.chunk.js.LICENSE.txt": "/Hangman/build/static/js/2.4287dc53.chunk.js.LICENSE.txt"
+    "static/js/2.175cd15a.chunk.js.LICENSE.txt": "/Hangman/build/static/js/2.175cd15a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e9a05803.js",
-    "static/js/2.4287dc53.chunk.js",
-    "static/js/main.194f6be9.chunk.js"
+    "static/js/2.175cd15a.chunk.js",
+    "static/js/main.94e29a03.chunk.js"
   ]
 }

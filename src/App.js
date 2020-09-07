@@ -8,14 +8,14 @@ import MainView from "./components/MainView";
 function App() {
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Hangman</title>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Walter+Turncoat&display=swap"
         />
-      </Helmet> */}
+      </Helmet>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <MainView />
